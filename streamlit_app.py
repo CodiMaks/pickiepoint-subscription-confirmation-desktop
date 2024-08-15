@@ -11,12 +11,12 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.title("\u00A0\u00A0Thanks for your subscription\u00A0\u00A0")
+st.caption('<span style="font-size:30px; font-weight:bold; color:white;">\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Thanks for your subscription</span>', unsafe_allow_html=True)
 st.write("")
 
 col1, col2, col3 = st.columns(3)
 with col2:
-    st.image("tick.png", width=300)
+    st.image("tick.png", width=250)
 st.write("")
 st.write("")
 
