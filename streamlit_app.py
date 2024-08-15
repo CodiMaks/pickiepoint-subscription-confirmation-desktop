@@ -26,6 +26,6 @@ st.subheader("")
 
 sub_col1, sub_col2, sub_col3 = st.columns(3)
 with sub_col2:
-    return_to_website = st.button("Let's go", type="primary", use_column_width=True)
+    return_to_website = st.button("Let's go", type="primary", use_container_width=True)
     st.text("")
     st.image("pickiepoint_logo_profile_picture.jpg", width=200)
