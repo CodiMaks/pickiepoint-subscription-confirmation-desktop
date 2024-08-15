@@ -14,7 +14,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 st.title("Thanks for your subscription")
 st.write("")
 
-st.image("tick.png", use_container_width=True)
+st.image("tick.png", use_column_width=True)
 st.write("")
 st.write("")
 
