@@ -14,7 +14,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 st.caption('<span style="font-size:40px; font-weight:bold; color:white;">Thanks for your \u00A0\u00A0 subscription</span>', unsafe_allow_html=True)
 st.write("")
 
-st.image("accept.png", width=300)
+st.image("tick.png", width=300)
 st.write("")
 st.write("")
 
