@@ -28,4 +28,4 @@ sub_col1, sub_col2, sub_col3 = st.columns(3)
 with sub_col2:
     return_to_website = st.button("Let's go", type="primary", use_container_width=True)
     st.text("")
-    st.image("pickiepoint_logo_profile_picture-removebg-preview (1).png", width=250)
+    st.image("pickiepoint_logo_profile_picture-removebg-preview (1).png", width=270)
